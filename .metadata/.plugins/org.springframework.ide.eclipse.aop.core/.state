@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="matjip_kdw"/>
+<aop-project name="test"/>
+<aop-project name="matjib"/>
+</aop-reference-model>

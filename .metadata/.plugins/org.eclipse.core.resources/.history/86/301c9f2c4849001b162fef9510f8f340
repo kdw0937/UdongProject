@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Main</title>
+</head>
+<body>
+
+
+<h3 class="content_title">
+        <!-- form action="#" method="GET"></form> -->
+        	<input type="text" name="main_Search" placeholder="Insert your Search Text!"/>        	
+        	<input type="submit" value="Search" class="btn"/>
+        
+        </h3>
+        
+        <p class="project_link"><a href="#">전체 맛집목록 보기는 여기를 클릭하세요!!</a></p>
+
+<ul class="project_list">
+           <li>  
+                <a href="#"><img src="../img/Ranking_main.jpg" alt="image3"/>
+                </a>                
+               <!--  <div class="hover_content">   
+                	<h4>Hover Test!</h4>
+                	<a href="#">Click HERE!!</a>             
+                </div> -->
+            </li>
+            <li>
+                <a href="#"><img src="../img/Local_main.jpg" alt="image explane"/>
+                </a>             
+            </li>
+            <li>
+                <a href="#"><img src="../img/Category_main.jpg" alt="image2"/>
+                </a>                
+            </li>
+            <li>  
+                <a href="#"><img src="../img/Recommand_main.jpg" alt="image3"/>
+                </a>               
+            </li>    
+        </ul>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>userEntry</title>
+</head>
+<body>
+<div>
+	<label for="user_id">I  D</label><br/>
+    <form:input path="user_id" maxlength="20" placeholder="ID�� �Է��ϼ���." />
+    <input type="button" value="�ߺ��˻�" onClick="idCheck()"/><br/>
+  	<label for="user_pw">��й�ȣ</label><br/>
+    <form:input path="user_pw" maxlength="20" placeholder="��й�ȣ�� �Է��ϼ���."/><br/>
+</div>
+</body>
+</html>

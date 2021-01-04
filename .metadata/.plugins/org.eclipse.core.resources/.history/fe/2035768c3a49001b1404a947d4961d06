@@ -1,0 +1,8 @@
+package impl;
+
+import dao.LoginDao;
+
+@Repository
+public class LoginDaoImpl implements LoginDao {
+	
+}

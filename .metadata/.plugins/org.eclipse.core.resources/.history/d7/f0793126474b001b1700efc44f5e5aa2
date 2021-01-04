@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/css/detail_mainContent.css">
+<title>Rankign_Lady</title>
+</head>
+<body>
+<div class="detail_inner">
+<div class="row">
+  <div class="side">    
+    <div class="img" style="height:200px;">Image</div>    
+  </div> 
+ 
+ <div class="main">
+    <h2><a href="#">TITLE HEADING</a></h2>
+    <h5>Addr or Explain</h5>
+    
+    <p>평점 </p>
+    <p>세부내용 or 리뷰</p>  
+  </div>
+</div>
+</div>
+</body>
+</html>
