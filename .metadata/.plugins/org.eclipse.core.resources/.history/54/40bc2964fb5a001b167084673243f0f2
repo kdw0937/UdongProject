@@ -1,0 +1,12 @@
+package dao;
+
+import java.util.List;
+
+import model.Event;
+
+public interface EventDao {
+	Integer getMaxEventNo();
+	Integer getMaxImageNo();
+	void AddEvent(Event event);
+	List<Event> findEvent();
+}

@@ -2,20 +2,22 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="div" key="selection"/>
+		<item value="getGender" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="div"/>
-			<item value="getMaxIdNo"/>
-			<item value="active"/>
-			<item value="sub"/>
-			<item value="jstl"/>
-			<item value="send"/>
-			<item value="img"/>
-			<item value="p"/>
+			<item value="getGender"/>
+			<item value="updatestar"/>
+			<item value="male"/>
+			<item value="order by"/>
+			<item value="grade"/>
+			<item value="sss"/>
+			<item value="mypagemain"/>
+			<item value="mypa"/>
 		</list>
 		<list key="replacehistory">
+			<item value="no"/>
+			<item value="image"/>
 		</list>
 	</section>
 </section>

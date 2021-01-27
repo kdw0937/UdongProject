@@ -3,5 +3,8 @@
     <typeInfo handle="=test/C:\/Program Files\/Java\/jdk-15.0.1\/lib\/jrt-fs.jar`java.base&lt;java.lang(ModuleLayer$Controller.class[Controller" modifiers="25" timestamp="1608101251662"/>
     <typeInfo handle="=matjib/C:\/Program Files\/Java\/jdk-15.0.1\/lib\/jrt-fs.jar`java.base&lt;java.lang.invoke(DirectMethodHandle$Interface.class[Interface" modifiers="8" timestamp="1608101251662"/>
     <typeInfo handle="=matjib/src\/main\/java&lt;model{User.java[User" modifiers="1" timestamp="1609664650342"/>
-    <typeInfo handle="=matjib/src\/main\/java&lt;dao{LoginDao.java[LoginDao" modifiers="513" timestamp="1609664680181"/>
+    <typeInfo handle="=matjib/src\/main\/java&lt;dao{LoginDao.java[LoginDao" modifiers="513" timestamp="1611238076385"/>
+    <typeInfo handle="=matjib/src\/main\/java&lt;controller{TotalController.java[TotalController" modifiers="1" timestamp="1610711900544"/>
+    <typeInfo handle="=matjib/src\/main\/java&lt;dao{ReviewDao.java[ReviewDao" modifiers="513" timestamp="1610711800442"/>
+    <typeInfo handle="=matjib/src\/main\/java&lt;dao{EventDao.java[EventDao" modifiers="513" timestamp="1611220119952"/>
 </typeInfoHistroy>

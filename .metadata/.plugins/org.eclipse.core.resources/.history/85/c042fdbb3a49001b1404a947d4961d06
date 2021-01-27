@@ -1,6 +1,0 @@
-package dao;
-
-public interface LoginDao{
-	void entry
-	
-}

@@ -1,0 +1,34 @@
+package dao.impl;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import dao.EventDao;
+import model.Event;
+@Repository
+public class EventDaoImpl implements EventDao {
+	@Autowired
+	private SqlSession session;
+	
+	public Integer getMaxEventNo() {		
+		return session.selectOne("mapper.Eventmapper.getMaxEventNo");
+	}
+
+	public void AddEvent(Event event) {
+		session.insert("mapper.Eventmapper.AddEvent",event);
+		
+	}
+	public Integer getMaxImageNo() {
+		return session.selectOne("mapper.EventMapper.getMaxImageNo");
+	}
+
+	public List<Event> findEvent() {
+		return session.selectList("mapper.EventMapper.eventFind");
+	}
+
+
+	
+}
